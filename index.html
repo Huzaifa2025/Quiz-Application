@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="left">
+    <h1>Question-List</h1>
+    <div class="left-list" id="leftList"></div>
+  </div>
+
+  <div class="middle">
+    <h1>Questions</h1>
+
+    <div class="question-card">
+      <h3 id="questionText"></h3>
+      <ul id="optionsList"></ul>
+
+      <div class="nav-buttons">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="right">
+    <h1> Timer </h1>
+
+    <div class="timer-box">
+      Time Left: <span id="timer">10:00</span>
+    </div>
+
+    <h1 style="margin: 4rem 0 1.5rem 0;">Navigation</h1>
+    <div class="right-list" id="rightList"></div>
+
+    <button id="submitBtn" class="submit-btn">Submit Quiz</button>
+  </div>
+
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
